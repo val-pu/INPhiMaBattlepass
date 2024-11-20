@@ -3,9 +3,9 @@ package de.inphima.inphimabattlepass
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication
+@SpringBootApplication                                  //yay spring :D
 class InPhiMaBattlePassApplication
 
-fun main(args: Array<String>) {
+fun main(args: Array<String>) {                         //that IS fun
     runApplication<InPhiMaBattlePassApplication>(*args)
 }
